@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Student Attendance System</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Student Attendance System</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Attendance Records</h2>
+            <p>Manage and view student attendance records.</p>
+            <a href="/attendance">View Attendance</a>
+        </section>
+        <section>
+            <h2>Mark Attendance</h2>
+            <p>Mark attendance for students.</p>
+            <a href="/mark-attendance">Mark Attendance</a>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Student Attendance System</p>
+    </footer>
+</body>
+</html>
